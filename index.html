@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>devChallenges.io | Minimal Blog Card</title>
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Sora:wght@100..800&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Sora', sans-serif;
+      }
+
+      body {
+        height: 100vh;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .card {
+        background: #fafaf9;
+        width: 20vw;
+        /* height: 35vh; */
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+        padding: 16px 16px 20px 16px;
+        display: flex;
+        flex-direction: column;
+      }
+      .img {
+        width: 18vw;
+        height: 20vh;
+        background: url(resources/Cactus.jpg) no-repeat center/cover;
+        border-radius: 10px;
+      }
+      .design p {
+        color: #7c19ee;
+        font-size: 10px;
+        text-align: center;
+        font-weight: 600;
+      }
+      .design{
+        background-color: #F2EAFD;
+        width: 7vw;
+        border-radius: 9999px;
+        padding: 4px 16px 4px 16px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+      }
+      .heading{
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 6px;
+      }
+      .body{
+        font-size: 14px;
+        font-weight: 300;
+        color: #394150;
+        text-align: left;
+        /* margin-bottom: 20px; */
+      }
+      .author{
+        font-size: 12px;
+        font-weight: 400;
+        border-top: 1px solid #E5EAF0;
+        box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 20vw;
+        background: #fafaf9;
+        display: flex;
+        align-items: center;
+        padding: 20px 16px 20px 16px;
+        color: #394150;
+      }
+      .author p{
+        
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Design
+
+  Embracing Minimalism
+
+  From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.
+
+  Annie Spratt -->
+    <div class="card">
+      <div class="img"></div>
+      <div class="design">
+        <p>Design</p>
+      </div>
+      <span class="heading">Embracing Minimalism</span>
+      <span class="body">From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.</span>
+    </div>
+    <div class="author">
+        <p>Annie Spratt</p>
+      </div>
+  </body>
+</html>
